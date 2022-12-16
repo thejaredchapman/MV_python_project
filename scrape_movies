@@ -7,6 +7,8 @@ import pandas as pd
 import os
 import sys
 
+# to start file, enter file name with range of years for argument. for example 2010 - 2020, "python scrape_movies 2010 2020"
+
 now = datetime.datetime.now()
 year = now.year
 start_year = now.year
